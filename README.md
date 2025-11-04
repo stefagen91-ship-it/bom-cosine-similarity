@@ -19,6 +19,12 @@ bom_cosine_similarity/
 ├─ requirements.txt
 └─ README.md
 ```
+## 📊 Cosine Similarity Heatmap
+
+This heatmap shows product-to-product similarity based on normalized material processing times.
+
+![Cosine Similarity Heatmap](cosine_similarity_heatmap.png)
+
 
 ## How to run
 ```bash
