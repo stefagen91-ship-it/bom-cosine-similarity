@@ -1,7 +1,16 @@
 # Product Similarity based on Bill of Materials (Cosine Similarity)
 
-This project demonstrates how to compute **product-to-product similarity** using **cosine similarity** on a **simulated Bill of Materials (BOM)** and a few numeric features (e.g., price, weight).  
-It is intended for portfolio purposes: the dataset is **fully simulated** and does **not** represent any real company data.
+## 🧠 Overview
+
+This project demonstrates how to compute **product-to-product similarity** using **cosine similarity** 
+on a simulated **Bill of Materials (BOM)** dataset.  
+Each product’s BOM contains a list of materials and associated processing times.  
+The algorithm identifies which products are **most similar in manufacturing composition**, 
+helping to detect consistent production behaviors or potential substitutions.
+
+The goal is to replicate, in a simplified way, a real industrial analysis I previously performed 
+to compare handcrafted product families based on material usage and manual processing effort.
+
 
 ## Why this matters
 Cosine similarity is useful to compare products by component composition and features, enabling tasks like:
@@ -25,6 +34,13 @@ This heatmap shows product-to-product similarity based on normalized material pr
 
 ![Cosine Similarity Heatmap](cosine_similarity_heatmap.png)
 
+## 🧩 Skills Demonstrated
+
+- Data preprocessing and feature scaling with **pandas** and **scikit-learn**
+- Application of **cosine similarity** for product comparison
+- Use of **data normalization** for manufacturing analytics
+- Data visualization with **matplotlib**
+- Writing clean, reproducible code for portfolio presentation
 
 ## How to run
 ```bash
